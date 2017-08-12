@@ -60,7 +60,7 @@ describe("Board", function () {
 
     it("should begin with 4 pieces in the center", function () {
       assert.equal(testBoard.grid[3][3].color, "white");
-      // assert.equal(testBoard.grid[3][4].color, "black");
+      assert.equal(testBoard.grid[3][4].color, "black");
       assert.equal(testBoard.grid[4][3].color, "black");
       assert.equal(testBoard.grid[4][4].color, "white");
     });
