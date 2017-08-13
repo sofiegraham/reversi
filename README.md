@@ -1,4 +1,4 @@
-# Reversi in JavaScript
+# Reversi or Othello
 
 Before beginning, install dependencies with: `npm install`.
 
